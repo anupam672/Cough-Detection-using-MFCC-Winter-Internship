@@ -1,0 +1,19 @@
+# Raw and processed datasets — large, not needed in repo
+dataset/
+final_dataset/
+processed/
+
+# Cached feature arrays — regenerate from raw audio instead
+features.npy
+labels.npy
+
+# Jupyter checkpoint junk (matches everywhere, including inside models/)
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
